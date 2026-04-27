@@ -133,6 +133,7 @@ export default function Contact() {
             <form
               data-testid="contact-form"
               onSubmit={onSubmit}
+              noValidate
               className="border-t border-[#1f1f1f] pt-7 md:pt-8"
             >
               <div className="flex items-center justify-between mb-7 md:mb-8 gap-4">
