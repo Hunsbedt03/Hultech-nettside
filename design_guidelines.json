@@ -1,0 +1,82 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) - Dark Industrial Variant",
+  "mood": "Precise, technical, zero fluff, confident, direct",
+  "colors": {
+    "background": "#0F0F0F",
+    "foreground": "#F5F5F5",
+    "primary": "#4A90D9",
+    "primary_foreground": "#FFFFFF",
+    "secondary": "#1A1A1A",
+    "secondary_foreground": "#E0E0E0",
+    "border": "#222222",
+    "muted": "#1A1A1A",
+    "muted_foreground": "#888888"
+  },
+  "typography": {
+    "font_families": {
+      "headings": "Space Grotesk, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "hierarchy": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tighter leading-[1.1]",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight",
+      "h3": "text-xl md:text-2xl font-semibold tracking-tight",
+      "body": "text-base md:text-lg leading-relaxed text-[#A0A0A0]",
+      "overlines": "text-xs font-mono uppercase tracking-[0.2em] text-[#4A90D9]"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Grid-based, intentional whitespace. Use wide gaps (gap-12, gap-16) and generous padding (py-24, py-32).",
+    "containers": "No cards. Use pure structural grids with 1px borders to separate content areas.",
+    "borders": "1px solid border-[#222222]. Use border-t, border-b, or border-l to define sections instead of box backgrounds."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#4A90D9] text-white rounded-none hover:bg-[#3A70B9] transition-colors py-3 px-6 font-medium",
+      "secondary": "bg-transparent border border-[#4A90D9] text-[#4A90D9] rounded-none hover:bg-[#4A90D9]/10 transition-colors py-3 px-6 font-medium"
+    },
+    "inputs": "w-full bg-transparent border-b border-[#333333] focus:border-b-2 focus:border-[#4A90D9] outline-none rounded-none px-0 py-3 text-white transition-all placeholder:text-[#666666]",
+    "dividers": "h-[1px] w-full bg-[#222222]"
+  },
+  "motion": {
+    "entrance": "framer-motion: initial={{ opacity: 0, y: 20 }}, animate={{ opacity: 1, y: 0 }}, transition={{ delay: 0.3, duration: 0.5, ease: 'easeOut' }}",
+    "stagger": "Use staggerChildren for grids and lists to sequentially fade up items."
+  },
+  "sections_instructions": {
+    "hero": "Headline 'Engineering That Holds Up.'. Subheadline about mechanical engineering, CE marking, technical documentation, product development for industrial and maritime clients. CTAs: 'Discuss Your Project', 'Our Services'. Use the CSS grid texture background (NO IMAGE).",
+    "services": "Grid of 5 services (Mechanical Engineering & Design, CE Marking & Regulatory Compliance, Technical Documentation, Product Development & Prototyping, 3D Scanning & Reverse Engineering). 'What We Deliver'. Flat layout separated by 1px borders. No card UI.",
+    "why_hultech": "5 differentiators. 'Built Different'. Minimal text, high contrast. Think technical specifications.",
+    "about": "'About Hultech' - Sole proprietorship in Kristiansand. Clean typography, confident tone.",
+    "contact": "'Let's Talk Engineering'. Minimalist form (Name, Company, Message). Use only bottom borders for inputs.",
+    "footer": "Large brand logo/text. Solid #0A0A0A background. 1px top border."
+  },
+  "visual_enhancers": {
+    "background_patterns": [
+      {
+        "name": "Geometric Blueprint Grid",
+        "css_classes": "bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:48px_48px]",
+        "usage": "Use in Hero and Contact sections to mimic technical drawing."
+      }
+    ]
+  },
+  "media": {
+    "image_urls": [
+      {
+        "url": "https://images.pexels.com/photos/7230895/pexels-photo-7230895.jpeg",
+        "category": "texture_overlay",
+        "description": "Use sparingly as a blend mode overlay if additional texture is needed for a specific block. DO NOT use as a standard image."
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "You MUST update the tailwind config and index.css base variables to reflect the #0F0F0F background and #4A90D9 primary colors. Set root --radius to 0.",
+    "IMPORT Space Grotesk and Inter fonts via standard Google Fonts URL in index.html.",
+    "DO NOT use Shadcn Card component. It violates the 'no cards or boxes' rule.",
+    "Section dividers must be thin 1px lines (border-[#222222]).",
+    "No hero image. Only use the CSS-based grid line background.",
+    "Ensure the tone is confident, direct, technical, like a Kongsberg subsidiary.",
+    "Add 'data-testid' to all interactive elements."
+  ]
+}
