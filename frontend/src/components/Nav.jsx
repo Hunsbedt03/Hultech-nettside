@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logoUrl from "@/logo.svg";
+import logoUrl from "../logo.svg";
 
 const links = [
   { href: "#services", label: "Tjenester", id: "tjenester" },
