@@ -101,7 +101,7 @@ export default function WhyHultech() {
             >
               <div className="flex items-baseline gap-4 mb-3">
                 <span className="idx-tag">{p.n}</span>
-                <span className="h-px w-10 sm:w-12 bg-[#4A90D9]" />
+                <span className="h-px w-10 sm:w-12 bg-[#C9A84C]" />
               </div>
               <h3 className="font-display text-[20px] sm:text-[22px] md:text-[26px] font-semibold tracking-[-0.01em] leading-[1.2] mb-3">
                 {p.title}

@@ -101,7 +101,7 @@ export default function Contact() {
                   <a
                     href="mailto:nicolas@hultech.no"
                     data-testid="contact-email-link"
-                    className="flex items-center gap-3 text-[14px] text-[#e5e5e5] hover:text-[#4A90D9] transition-colors break-all"
+                    className="flex items-center gap-3 text-[14px] text-[#e5e5e5] hover:text-[#C9A84C] transition-colors break-all"
                   >
                     <Mail size={15} strokeWidth={1.4} className="shrink-0" />
                     nicolas@hultech.no
@@ -109,7 +109,7 @@ export default function Contact() {
                   <a
                     href="tel:+4790658567"
                     data-testid="contact-phone-link"
-                    className="flex items-center gap-3 text-[14px] text-[#e5e5e5] hover:text-[#4A90D9] transition-colors"
+                    className="flex items-center gap-3 text-[14px] text-[#e5e5e5] hover:text-[#C9A84C] transition-colors"
                   >
                     <Phone size={15} strokeWidth={1.4} className="shrink-0" />
                     +47 906 58 567

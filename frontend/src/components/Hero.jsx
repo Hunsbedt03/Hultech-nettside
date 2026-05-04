@@ -28,7 +28,7 @@ export default function Hero() {
         viewBox="0 0 800 600"
         fill="none"
       >
-        <g stroke="#4A90D9" strokeWidth="1">
+        <g stroke="#C9A84C" strokeWidth="1">
           <circle cx="500" cy="300" r="220" />
           <circle cx="500" cy="300" r="160" />
           <circle cx="500" cy="300" r="100" />
@@ -56,7 +56,7 @@ export default function Hero() {
           className="flex items-center justify-between mb-10 md:mb-20"
         >
           <div className="flex items-center gap-3">
-            <span className="block w-1.5 h-1.5 bg-[#4A90D9]" />
+            <span className="block w-1.5 h-1.5 bg-[#C9A84C]" />
             <span className="font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.22em] text-[#888]">
               ETABL. KRISTIANSAND · AGDER · NORGE
             </span>
@@ -78,7 +78,7 @@ export default function Hero() {
           <br />
           <span className="text-white">som </span>
           <span className="relative inline-block">
-            <span className="text-[#4A90D9]">holder.</span>
+            <span className="text-[#C9A84C]">holder.</span>
           </span>
         </motion.h1>
 
@@ -143,7 +143,7 @@ export default function Hero() {
               <li className="flex items-center justify-between gap-4">
                 <span>STATUS</span>
                 <span className="flex items-center gap-2 text-[#e5e5e5]">
-                  <span className="w-1.5 h-1.5 bg-[#4A90D9] inline-block" />
+                  <span className="w-1.5 h-1.5 bg-[#C9A84C] inline-block" />
                   TAR I MOT PROSJEKTER
                 </span>
               </li>

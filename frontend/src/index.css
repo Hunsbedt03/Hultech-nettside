@@ -10,8 +10,8 @@
     --hu-fg-mute: #666666;
     --hu-line: #1f1f1f;
     --hu-line-strong: #2a2a2a;
-    --hu-accent: #4a90d9;
-    --hu-accent-hover: #6aa6e3;
+    --hu-accent: #c9a84c;
+    --hu-accent-hover: #ddbe6a;
 }
 
 * {
@@ -47,19 +47,19 @@ body {
         --card-foreground: 0 0% 96%;
         --popover: 0 0% 6%;
         --popover-foreground: 0 0% 96%;
-        --primary: 211 65% 57%;
+        --primary: 43 54% 54%;
         --primary-foreground: 0 0% 100%;
         --secondary: 0 0% 10%;
         --secondary-foreground: 0 0% 90%;
         --muted: 0 0% 10%;
         --muted-foreground: 0 0% 53%;
-        --accent: 211 65% 57%;
+        --accent: 43 54% 54%;
         --accent-foreground: 0 0% 100%;
         --destructive: 0 70% 45%;
         --destructive-foreground: 0 0% 100%;
         --border: 0 0% 13%;
         --input: 0 0% 13%;
-        --ring: 211 65% 57%;
+        --ring: 43 54% 54%;
         --radius: 0;
     }
 
@@ -166,7 +166,7 @@ body {
 
 .btn-primary:hover {
     background: var(--hu-accent-hover);
-    box-shadow: 0 0 0 4px rgba(74, 144, 217, 0.12);
+    box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.14);
 }
 
 .btn-primary:active {

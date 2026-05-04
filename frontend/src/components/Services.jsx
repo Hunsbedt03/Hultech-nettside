@@ -115,7 +115,7 @@ export default function Services() {
                   <Icon
                     size={20}
                     strokeWidth={1.4}
-                    className="mt-[2px] text-[#4A90D9] shrink-0 sm:size-[22px]"
+                    className="mt-[2px] text-[#C9A84C] shrink-0 sm:size-[22px]"
                   />
                   <h3 className="font-display text-[18px] sm:text-[20px] md:text-[26px] font-semibold tracking-[-0.01em] leading-[1.2]">
                     {s.title}
@@ -132,7 +132,7 @@ export default function Services() {
                   <ArrowUpRight
                     size={20}
                     strokeWidth={1.4}
-                    className="text-[#666] group-hover:text-[#4A90D9] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all"
+                    className="text-[#666] group-hover:text-[#C9A84C] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all"
                   />
                 </div>
 

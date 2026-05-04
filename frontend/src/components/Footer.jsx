@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="md:col-span-7">
             <div className="font-display font-semibold tracking-[-0.04em] leading-[0.85] text-[72px] sm:text-[120px] md:text-[180px] lg:text-[220px]">
               <span className="text-[#f5f5f5]">Hul</span>
-              <span className="text-[#4A90D9]">tech.</span>
+              <span className="text-[#C9A84C]">tech.</span>
             </div>
           </div>
 
@@ -21,14 +21,14 @@ export default function Footer() {
             <a
               href="mailto:nicolas@hultech.no"
               data-testid="footer-email"
-              className="text-[15px] text-[#e5e5e5] hover:text-[#4A90D9] transition-colors break-all"
+              className="text-[15px] text-[#e5e5e5] hover:text-[#C9A84C] transition-colors break-all"
             >
               nicolas@hultech.no
             </a>
             <a
               href="tel:+4790658567"
               data-testid="footer-phone"
-              className="text-[15px] text-[#e5e5e5] hover:text-[#4A90D9] transition-colors mt-1"
+              className="text-[15px] text-[#e5e5e5] hover:text-[#C9A84C] transition-colors mt-1"
             >
               +47 906 58 567
             </a>
@@ -44,7 +44,7 @@ export default function Footer() {
             Enkeltpersonforetak · Kristiansand · NO
           </div>
           <div className="md:text-right flex md:justify-end items-center gap-2">
-            <span className="w-1.5 h-1.5 bg-[#4A90D9] inline-block" />
+            <span className="w-1.5 h-1.5 bg-[#C9A84C] inline-block" />
             Tar i mot prosjekter
           </div>
         </div>
