@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logoUrl from "@/logo.svg";
 
 const links = [
   { href: "#services", label: "Tjenester", id: "tjenester" },
@@ -38,11 +39,13 @@ export default function Nav() {
           data-testid="nav-logo"
           className="flex items-center gap-3 group"
         >
-          <span className="block w-2.5 h-2.5 bg-[#4A90D9]" aria-hidden />
-          <span className="font-display text-[18px] md:text-[20px] font-semibold tracking-tight">
-            Hultech
-          </span>
-          <span className="hidden md:inline font-mono text-[10px] text-[#666] uppercase tracking-[0.22em] ml-2 pl-3 border-l border-[#1f1f1f]">
+          <img
+            src={logoUrl}
+            alt="Hultech"
+            width={120}
+            className="h-auto w-[120px] block"
+          />
+          <span className="hidden md:inline font-mono text-[10px] text-[#666] uppercase tracking-[0.22em] pl-3 border-l border-[#1f1f1f]">
             Ingeniørfag · NO
           </span>
         </a>
